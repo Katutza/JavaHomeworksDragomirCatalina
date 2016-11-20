@@ -9,9 +9,8 @@ package calculator;
  */
 public class Impartit {
     
-    public double impartire(double valoare1, double valoare2){
-       boolean division = valoare2 != 0;
+    public double imparte(double valoare1, double valoare2){
        double rezultat = valoare1 / valoare2;
-       return(rezultat);
+           return(rezultat);
        }
     }

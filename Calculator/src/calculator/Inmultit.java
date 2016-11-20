@@ -9,7 +9,7 @@ package calculator;
  */
 public class Inmultit {
     
-    public double inmultire(double valoare1, double valoare2){
+    public double inmulteste(double valoare1, double valoare2){
        double rezultat = valoare1 * valoare2;
        return(rezultat);
     }

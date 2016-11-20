@@ -43,17 +43,22 @@ public class Calculator {
             double number2 = input.nextDouble();
                                    
         switch (operator) {
+            default: System.out.println("Invalid choice!");
+            break;
             case '+': answer = butonPlus.aduna(number1, number2);
             break;
-            case '-': answer = butonMinus.scadere(number1, number2);
+            case '-': answer = butonMinus.scade(number1, number2);
             break;
-            case '*': answer = butonInmultit.inmultire(number1, number2);
+            case '*': answer = butonInmultit.inmulteste(number1, number2);
             break;
-            case '/': answer = butonImpartit.impartire(number1, number2);
+            case '/': answer = butonImpartit.imparte(number1, number2);
             break;
             case '=': answer = butonEgal.breakNews(answer);
             break;
-        }
+         }
+            if (number2 == 0) {
+        throw new IllegalArgumentException("Argument 'divisor' is 0");
+            }        
             System.out.println(answer);
             }
         }
