@@ -9,7 +9,7 @@ package helloworldanonymousclasses;
  *
  * @author Katutza
  */
-public interface HelloWorld {
+interface HelloWorld {
     public void greet();
     public void greetSomeone(String someone);
 }
